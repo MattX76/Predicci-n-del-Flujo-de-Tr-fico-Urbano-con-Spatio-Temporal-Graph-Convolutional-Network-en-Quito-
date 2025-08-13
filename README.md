@@ -23,7 +23,7 @@ El objetivo principal es proveer una solución avanzada y precisa para la gesti�
 
 ### 📂 Estructura del Repositorio
 
-.
+
 ├── data/                    # Contiene la base de datos y archivos de datos preprocesados
 ├── notebook/                # Notebooks de Jupyter con el desarrollo y análisis del proyecto
 ├── src/                     # Código fuente de las clases y funciones del modelo
@@ -46,19 +46,10 @@ Clona el repositorio:
 
 Bash
 
-git clone [https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/tu-usuario/nombre-del-repositorio.git)
-cd nombre-del-repositorio
+git clone [[https://github.com/tu-usuario/nombre-del-repositorio.git]
 Prepara los datos:
 Asegúrate de que tus datos de tráfico y la matriz de adyacencia de la red vial estén ubicados en la carpeta data/.
 
 Ejecuta el Notebook:
 Abre y ejecuta el notebook principal en la carpeta notebook/ para entrenar el modelo, evaluarlo y visualizar los resultados.
 
-📈 Resultados y Métricas
-El modelo fue evaluado utilizando los datos de validación, arrojando los siguientes resultados desnormalizados:
-
-MAE (Error Absoluto Medio): ~30.22 vehículos
-
-RMSE (Raíz del Error Cuadrático Medio): ~41.52 vehículos
-
-Estos valores indican un rendimiento sólido, con una predicción promedio que se desvía en 30 vehículos de los valores reales. El RMSE sugiere que el modelo comete errores más grandes en algunos picos de tráfico.
