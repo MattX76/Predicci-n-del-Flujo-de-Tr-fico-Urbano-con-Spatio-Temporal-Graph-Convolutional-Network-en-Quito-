@@ -1,4 +1,4 @@
-# Predicci-n-del-Flujo-de-Tr-fico-Urbano-con-Spatio-Temporal-Graph-Convolutional-Network-en-Quito-
+# Predicción del Flujo de Tráfico Urbano con ST-GCN en Quito
 Este repositorio contiene el proyecto PIS 23-05 de la EPN, que implementa un modelo ST-GCN para predecir el flujo de tráfico en Quito. Incluye el código Python para la arquitectura del modelo, preprocesamiento de datos de tráfico, y visualización de resultados. Es ideal para proyectos de Smart Cities y Deep Learning.
 
 # Predicción del Flujo de Tráfico Urbano con ST-GCN en Quito
